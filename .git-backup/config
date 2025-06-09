@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "heroku"]
+	url = https://git.heroku.com/vambot.git
+	fetch = +refs/heads/*:refs/remotes/heroku/*
+[remote "origin"]
+	url = https://github.com/jessffc01/vambot
+	fetch = +refs/heads/*:refs/remotes/origin/*
